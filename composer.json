@@ -1,0 +1,31 @@
+{
+    "name": "fredjuvaux/silex-orm-user-provider",
+    "description": "Doctrine ORM user provider for Silex",
+    "keywords": ["silex", "doctrine", "orm", "database", "extension", "provider", "user"],
+    "license": "MIT",
+    "homepage": "https://github.com/fredjuvaux/silex-orm-user-provider",
+    "authors": [
+        { 
+            "name": "Fred Juvaux",
+            "homepage": "http://fredjuvaux.fr/",
+            "email": "hello@fredjuvaux.fr" 
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/orm": "~2.3",
+        "doctrine/common": "~2.3",
+        "doctrine/dbal": "~2.3",
+        "symfony/doctrine-bridge": "~2.3"
+    },
+    "autoload": {
+        "psr-0": { 
+            "User": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
